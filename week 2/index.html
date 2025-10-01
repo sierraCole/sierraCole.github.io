@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Mozilla Manifesto</title>
+    
+    <style>
+      /* spinning keyframes */
+      @keyframes spinZ { 
+        from { transform: rotateY(0deg); }
+        to { transform: rotateY(360deg); }
+      }
+      .spin { animation: spinZ 6s linear infinite; 
+        transform-style: preserve-3d;}
+
+    details {
+        margin-top: 15px;
+      }
+      summary {
+        background-color:#2475AC;
+        color:#F2F2F2;
+        padding:12px 20px;
+        cursor:pointer;
+        font-size:18px;
+        list-style:none;
+        transition: box-shadow 0.3s ease;
+        border:none;
+      }
+      summary:hover {
+        box-shadow:0 0 15px #E977F5;
+      }
+      
+      details ul {
+        background-color:#733E85;
+        padding:15px;
+        margin-top:5px;
+        list-style:none;
+      }
+      details ul li {
+        margin:10px 0;
+        background-color:#E977F5;
+        color:#042142;
+        padding:10px;
+        border-radius:5px;
+      }  
+    </style>
+  </head>
+  <body style="background-color:#042142; color:#F2F2F2; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+    <main style="background-color:#153C6A; padding:20px;">
+
+      <h1 style="background-color:#2475AC; color:#F2F2F2; padding:10px; text-align:center;">
+        Mozilla Manifesto
+      </h1>
+
+      <!--img src https://www.flaticon.com/free-icons/y2k-->
+      <img src="C:\Users\csie2\OneDrive\Pictures\Downloaded images\computer.png" 
+           width="150" class="spin" 
+           style="display:block; margin:20px auto; background-color:#3DE0FC; padding:10px; border-radius:10px;">
+
+      <!-- dropdown section -->
+      <details>
+        <summary>A Few Quotes</summary>
+        <ul>
+        <li>“We are committed to an internet that elevates critical thinking, reasoned argument, shared knowledge, and verifiable facts.”</li>
+        <li>“Individuals must have the ability to shape the internet and their own experiences on it.”</li>
+        <li>“We are committed to an internet that promotes civil discourse, human dignity, and individual expression.”</li>
+      </ul>
+      </details>
+
+      <h3 style="background-color:#2475AC; padding:10px; margin-top:20px;">My Response</h3>
+      <p style="background-color:#E977F5; padding:15px; color:#042142;">
+        
+        After reading the Manifesto, I definitely agree that we should be able to have civil discourse and access to an internet
+        that, despite disagreements, promotes dignity, humanity, and respect. At the same time, 
+        I’m not sure how possible that really is. A lot of people tend to gather in corners of the 
+        internet that function more like echo chambers, where ideas are reinforced rather than 
+        challenged. In those spaces, any attempt at meaningful discourse is often met with 
+        resistance or outright hostility.
+      </p>
+      <p style="background-color:#733E85; padding:15px; margin-top:5px;">
+        This also makes me think about how much the internet shapes our offline lives — especially 
+        when it comes to people losing jobs over what they say or do online. On one hand, there 
+        should be accountability for harmful actions. On the other hand, it raises difficult 
+        questions about free expression, redemption, and whether a single online moment should 
+        define someone’s future. These tensions are exactly why Mozilla’s principles matter, but 
+        also why they’re so hard to fully realize. 
+      </p>
+
+    </main>
+
+  </body>
+</html>
