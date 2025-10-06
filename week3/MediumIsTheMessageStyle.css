@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&family=Share+Tech+Mono&display=swap');
+
+body{
+    background: radial-gradient(circle at top, #0d1117, black 90%);
+    font-family: 'Share Tech Mono', monospace;
+    color: #b5ffe1;
+    margin: 0;
+    overflow: hidden;
+    letter-spacing: 0.5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+header{
+    background: linear-gradient(90deg, #00f5ff, #b300ff, #00f5ff);
+    color: #0d1117;
+    padding: 25px 40px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 40px rgba(0, green, blue, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+section{
+    max-width: 800px;
+    margin: 60px;
+    background: rgba(15, 25, 35, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, green, blue, 0.2);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, green, blue, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+h2{
+    color: #00f5ff;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p{ 
+    font-size: medium;
+    line-height: 2;
+    transition: transform 0.3s ease, opacity 0.3 ease;
+    color: #d6fff7;
+}
+
+p:hover{
+    transform: scale(1.03) rotate(-1deg);
+}
