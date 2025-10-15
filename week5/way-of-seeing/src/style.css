@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Pixelify+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background: #000;
+    font-family: 'Pixelify Sans', cursive;
+    color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+/*nicer title bar*/ 
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px #ff66b2, 0 0 20px #ff99cc;
+    background: rgba(255, 182, 193, 0.1);
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #ff99cc;
+    box-shadow: 0 0 10px #ff66b2;
+    z-index: 10;
+}
+
+
+canvas{
+    border: 6px solid #ffb6c1;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #ff66b2, inset 0 0 20px rgba(255, 182, 193, 0.3);
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw !important;
+    height: 60vh !important;
+}
+
+.viewer-count{
+    position: absolute;
+    top: 70px;
+    left: calc(50% + 35vw - 120px);
+    transform: translateX(-100%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    color: #ff99cc;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #ff66b2;
+    text-shadow: 0 0 6px #ff66b2;
+    z-index: 20;
+}
+
+.instructions{
+   position: absolute;
+    top: 150px;
+    right: 60px;
+    background: rgba(255, 182, 193, 0.9);
+    border: 2px solid #ff99cc;
+    border-radius: 12px;
+    padding: 15px 20px;
+    font-size: large;
+    color: #000;
+    line-height: 1.6;
+    width: 240px;
+    box-shadow: 0 0 15px #ff66b2;
+    backdrop-filter: blur(8px);
+    z-index: 15;
+}
+
+.instructions h2 {
+    margin-top: 0;
+    font-size: medium;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+    color: #000;
+    text-shadow: 0 0 2px rgba(255,255,255,0.5);
+    margin-bottom: 10px;
+}
+
+.comment-section{
+    position: absolute;
+    top: calc(60vh + 120px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    background: #ad5dc384;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff66b2;
+    padding: 15px;
+    font-size: large;
+    color: #fff;
+    line-height: 1.6;
+    backdrop-filter: blur(6px);
+}
+
+.comment-header{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffb6c1;
+    border-bottom: 1px solid #ff99cc;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #ff66b2;
+}
+
+.comment{
+    margin-bottom: 10px;
+}
+
+.username{
+    color: #ff99cc;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.reflection{
+    background: rgba(255, 182, 193, 0.15);
+    border-left: 3px solid #ff66b2;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
