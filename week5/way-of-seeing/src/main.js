@@ -59,7 +59,7 @@ groundMesh.receiveShadow = true;
 
 const loader = new GLTFLoader();
 //Load models
-loader.load( '/BG-LB Pose.glb', function (gltf) {
+loader.load( '/models/BG-LB Pose.glb', function (gltf) {
     const model = gltf.scene;
   model.position.set(-4, 0, -4);
   model.rotation.y = -Math.PI / 4; //turn toward center
@@ -73,7 +73,7 @@ loader.load( '/BG-LB Pose.glb', function (gltf) {
 
 } );
 
-loader.load( '/BG-Drama Pose.glb', function (gltf) {
+loader.load( '/models/BG-Drama Pose.glb', function (gltf){
     const model = gltf.scene;
   model.position.set(4, 0, -4);
   model.rotation.y = -Math.PI / 4; //face outward
@@ -87,7 +87,7 @@ loader.load( '/BG-Drama Pose.glb', function (gltf) {
 
 } );
 
-loader.load( '/BG-Lay Pose.glb', function (gltf) {
+loader.load( '/models/BG-Lay Pose.glb', function (gltf) {
    const model = gltf.scene;
   model.position.set(0, 0, 5);
   model.rotation.y = Math.PI; //face away from center
