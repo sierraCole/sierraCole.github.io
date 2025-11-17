@@ -80,6 +80,7 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  transform:translateZ(70px);
   background: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
