@@ -4,10 +4,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />  
     <script src="main.js" defer></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Bytesized&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sixtyfour&family=Tiny5&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="flash-red">
+        <div class="container">
+            <h1>The Social Dilemma</h1>
+            <p>Does your sanity depend on your phone?</p>
 
+            <div id="sanity-bar-container">
+                <div id="sanity-bar"></div>
+            </div>
+
+            <p id="sanity-value">Sanity: 100%</p>
+
+            <div id="phone">📱</div>
+
+            <p id="warning"></p>
+            
+        </div>
+        <div id="notifications"></div>
     </body>
 </html>
